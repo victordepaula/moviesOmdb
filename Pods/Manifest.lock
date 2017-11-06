@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.5.1)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - NVActivityIndicatorView (4.0.0):
+    - NVActivityIndicatorView/Presenter (= 4.0.0)
+  - NVActivityIndicatorView/Presenter (4.0.0)
+  - ObjectMapper (3.0.0)
+  - ScalingCarousel (2.0)
+  - SDWebImage (4.2.1):
+    - SDWebImage/Core (= 4.2.1)
+  - SDWebImage/Core (4.2.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - AlamofireObjectMapper (from `https://github.com/tristanhimmelman/AlamofireObjectMapper.git`, branch `swift-4`)
+  - NVActivityIndicatorView
+  - ObjectMapper (~> 3.0)
+  - ScalingCarousel
+  - SDWebImage (~> 4.0)
+
+EXTERNAL SOURCES:
+  AlamofireObjectMapper:
+    :branch: swift-4
+    :git: https://github.com/tristanhimmelman/AlamofireObjectMapper.git
+
+CHECKOUT OPTIONS:
+  AlamofireObjectMapper:
+    :commit: 8899a3df674cfd71edb121765ebcbe0762a92519
+    :git: https://github.com/tristanhimmelman/AlamofireObjectMapper.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  AlamofireObjectMapper: e1ff207b71715478ab69f12ca85112f37b139de8
+  NVActivityIndicatorView: 54c9b93b6f25a4f467512680c0c90c09a1095cf2
+  ObjectMapper: 92230db59bf8f341a5c3a3cf0b9fbdde3cf0d87f
+  ScalingCarousel: 5c9b481796fcb350da0ed8f65840b470d21210f2
+  SDWebImage: 1fa4c9edf525b744f002db89f3f5a38b3cd4c541
+
+PODFILE CHECKSUM: 0787a87cf1370bc889586b9bdc7aa1510fdec31c
+
+COCOAPODS: 1.2.1

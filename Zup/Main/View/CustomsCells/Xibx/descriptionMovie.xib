@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellNameMovie" rowHeight="67" id="eLe-eg-T6S" customClass="DescriptionMovieTableViewCell" customModule="Zup" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eLe-eg-T6S" id="0MU-e8-Nu4">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="66.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LRI-QU-Gwi">
+                        <rect key="frame" x="8" y="2" width="359" height="62.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hS7-xQ-tlO">
+                                <rect key="frame" x="17" y="0.0" width="334" height="62.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25882352941176467" green="0.25882352941176467" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="hS7-xQ-tlO" secondAttribute="bottom" id="DO5-gW-xLi"/>
+                            <constraint firstItem="hS7-xQ-tlO" firstAttribute="leading" secondItem="LRI-QU-Gwi" secondAttribute="leading" constant="17" id="QAS-c1-jOi"/>
+                            <constraint firstItem="hS7-xQ-tlO" firstAttribute="top" secondItem="LRI-QU-Gwi" secondAttribute="top" id="geT-Vy-8Gm"/>
+                            <constraint firstAttribute="trailing" secondItem="hS7-xQ-tlO" secondAttribute="trailing" constant="8" id="u3B-OY-Q2J"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="LRI-QU-Gwi" secondAttribute="trailing" constant="8" id="2WM-ik-kGm"/>
+                    <constraint firstItem="LRI-QU-Gwi" firstAttribute="top" secondItem="0MU-e8-Nu4" secondAttribute="top" constant="2" id="Gda-rV-Xzc"/>
+                    <constraint firstAttribute="bottom" secondItem="LRI-QU-Gwi" secondAttribute="bottom" constant="2" id="Ro3-VW-1Y6"/>
+                    <constraint firstItem="LRI-QU-Gwi" firstAttribute="leading" secondItem="0MU-e8-Nu4" secondAttribute="leading" constant="8" id="yXk-JZ-NqB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="movieNameLbl" destination="hS7-xQ-tlO" id="UY6-dt-Cm1"/>
+                <outlet property="view" destination="LRI-QU-Gwi" id="S92-nt-bg0"/>
+            </connections>
+            <point key="canvasLocation" x="2.5" y="-69.5"/>
+        </tableViewCell>
+    </objects>
+</document>

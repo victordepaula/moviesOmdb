@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in ViewController.viewDidLoad():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.moviesResponse">
+            </PersistentString>
+            <PersistentString
+               value = "carousel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.collectionView(_:cellForItemAt:):ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "DetailViewController.movieButtonSave(_:):DetailViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MovieData.getAllMovies():MovieData.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "fetchCountry">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Movie.convertFieldsToDictionary():Movie.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bookMirror.children[title]">
+            </PersistentString>
+            <PersistentString
+               value = "dictionary">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MoviesSavedTableViewCell.configCell(nameMovie:imageBase64:):MoviesSavedTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.movieImageView.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MoviesApplication.movies(onSuccess:onFailureMessage:onFailure:):MoviesApplication.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MoviesApplication.movies1(onSuccess:onFailureMessage:onFailure:stringForSearch:):MoviesApplication.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ScalingCarouselCell.prepareForReuse():ScalingCarouselCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SavedMoviesViewController.viewWillAppear(_:):SavedMoviesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.moviesSaved">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MovieData.saveCountry(_:):MovieData.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "movie">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AbstractData.get():AbstractData.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

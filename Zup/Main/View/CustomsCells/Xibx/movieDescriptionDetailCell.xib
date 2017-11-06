@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="movieDescriptionCell" rowHeight="103" id="lwA-Rw-or1" customClass="MovieDetailCell" customModule="Zup" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="103"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lwA-Rw-or1" id="eGW-x5-hbq">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="102.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxl-vU-LDx">
+                        <rect key="frame" x="20" y="8" width="86" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQA-WI-SEV">
+                        <rect key="frame" x="20" y="37" width="355" height="58"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.25882352941176467" green="0.25882352941176467" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="HQA-WI-SEV" firstAttribute="trailing" secondItem="eGW-x5-hbq" secondAttribute="trailingMargin" constant="8" id="5gv-3G-fDU"/>
+                    <constraint firstItem="mxl-vU-LDx" firstAttribute="top" secondItem="eGW-x5-hbq" secondAttribute="topMargin" id="lyG-3r-iGn"/>
+                    <constraint firstAttribute="bottom" secondItem="HQA-WI-SEV" secondAttribute="bottom" constant="7.5" id="sCv-Vw-VTn"/>
+                    <constraint firstItem="mxl-vU-LDx" firstAttribute="leading" secondItem="eGW-x5-hbq" secondAttribute="leadingMargin" constant="12" id="uEm-jH-xDE"/>
+                    <constraint firstItem="HQA-WI-SEV" firstAttribute="top" secondItem="mxl-vU-LDx" secondAttribute="bottom" constant="8" id="vEx-cf-OXT"/>
+                    <constraint firstItem="HQA-WI-SEV" firstAttribute="leading" secondItem="eGW-x5-hbq" secondAttribute="leadingMargin" constant="12" id="y3x-Ma-lTO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionMovie" destination="HQA-WI-SEV" id="pMU-wq-KTG"/>
+            </connections>
+            <point key="canvasLocation" x="-8.5" y="-47.5"/>
+        </tableViewCell>
+    </objects>
+</document>
